@@ -1,4 +1,14 @@
-Export 3D model (SolidWorks part) to DXF
+Hello everyone. I've written two Python scripts for creating DXF files from flat patterns of SolidWorks parts in SLDPRT format (that include bends), and from STEP files.
+The scripts need further development:
+1. In the step_to_dxf.py script, all dimensions are in meters, so a SCALE_FACTOR = 0.001 variable was added to correct this.
+2. In the solidworks_dxf_gib_R.py script, a flat pattern is created, and then a DXF is created from it. I tried to add the display of bend lines in various ways within the script.
+I would be happy to see your improvements! And I hope you will be share updated scripts with me!
+
+P.S. My Patreon: patreon.com/0ptimusPrim4
+
+---
+
+## README_eng
 
 ## Introduction
 
